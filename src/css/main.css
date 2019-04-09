@@ -1,0 +1,51 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: round;
+    color: white;
+}
+
+nav {
+    line-height: unset;
+    height: auto;
+}
+
+nav .fotoInicio {
+    display: flex;
+}
+
+nav img {
+    border-radius: 50%;
+    height: 150px;
+    margin: 10px auto;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul .title {
+    font-size: 1.2em;
+
+    margin: auto;
+    padding: 10px;
+}
+
+.text {
+    background: white;
+    color: black;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: .6;
+}
+
+.text img {
+    width: 100%;
+}
+
+.final {
+    display: block;
+    margin-bottom: 50px;
+}
